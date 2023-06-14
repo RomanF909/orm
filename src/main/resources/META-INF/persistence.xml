@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <persistence xmlns="https://jakarta.ee/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              version="3.0">
-    <persistence-unit name="library" transaction-type="RESOURCE_LOCAL">
-        <class>ru.itmo.database.jpa.entity.PublishingHouse</class>
-        <class>ru.itmo.database.jpa.entity.Book</class>
-        <class>ru.itmo.database.jpa.entity.Author</class>
-        <class>ru.itmo.database.jpa.entity.LibraryUser</class>
-        <class>ru.itmo.database.jpa.entity.BookIssuance</class>
+    <persistence-unit name="mounting" transaction-type="RESOURCE_LOCAL">
+        <class>ru.itmo.database.jpa.entity1.PublishingHouse</class>
+        <class>ru.itmo.database.jpa.entity.Hills</class>
+        <class>ru.itmo.database.jpa.entity.Alpins</class>
+        <class>ru.itmo.database.jpa.entity1.LibraryUser</class>
+        <class>ru.itmo.database.jpa.entity1.BookIssuance</class>
 
         <properties>
             <!-- используемый драйвер -->
