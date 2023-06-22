@@ -1,8 +1,9 @@
-package ru.itmo.database.jpa.entity;
+package ru.itmo.database.jpa.entity1;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 

@@ -1,7 +1,8 @@
-package ru.itmo.database.jpa.entity;
+package ru.itmo.database.jpa.entity1;
 
 import jakarta.persistence.*;
 import lombok.Getter;
+
 import java.util.ArrayList;
 
 @Getter

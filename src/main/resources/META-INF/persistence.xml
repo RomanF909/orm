@@ -3,8 +3,8 @@
              version="3.0">
     <persistence-unit name="mounting" transaction-type="RESOURCE_LOCAL">
         <class>ru.itmo.database.jpa.entity1.PublishingHouse</class>
-        <class>ru.itmo.database.jpa.entity.Hills</class>
-        <class>ru.itmo.database.jpa.entity.Alpins</class>
+        <class>ru.itmo.database.jpa.entity2.Hills</class>
+        <class>ru.itmo.database.jpa.entity2.Alpins</class>
         <class>ru.itmo.database.jpa.entity1.LibraryUser</class>
         <class>ru.itmo.database.jpa.entity1.BookIssuance</class>
 
